@@ -1,0 +1,14 @@
+sum1=0
+sum=0
+n=int(input('enter n value:'))
+for i in range(1, n+1):
+ if i%2==0:
+  sum=sum+i
+ else:
+  sum1=sum1+i
+print('sum of even integers:',sum)
+print('sum of odd integers:',sum1)
+OUTPUT:-
+enter n value:6
+sum of even integers: 12
+sum of odd integers: 9
